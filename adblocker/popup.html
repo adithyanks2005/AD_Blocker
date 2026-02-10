@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Luxury Ad Blocker</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="popup-body">
+
+<div class="container">
+
+<div class="title">Luxury Ad Blocker</div>
+
+<!-- LOGO ADDED HERE -->
+<center>
+   <img src="icon.png">
+</center>
+
+<div class="card">
+<div class="stat">
+    <span>Status</span>
+    <b id="status">ON</b>
+</div>
+</div>
+
+<div class="card">
+<div class="stat">
+    <span>Ads Blocked</span>
+    <b id="count">0</b>
+</div>
+</div>
+
+<button id="toggle">Toggle ON / OFF</button>
+
+<button id="whitelist">Whitelist This Site</button>
+
+<div class="card">
+    <b>Block Custom Domain</b>
+    <input id="domain" placeholder="example.com">
+    <button id="add">Block Domain</button>
+</div>
+
+<div class="msg" id="msg"></div>
+
+</div>
+
+<script src="popup.js"></script>
+
+</body>
+</html>
